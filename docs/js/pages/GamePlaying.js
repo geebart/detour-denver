@@ -29,9 +29,9 @@ export default class GamePlaying extends React.Component {
     const location = game.location.name;
     const locations = game.locations;
 
+    console.log(locations);
+
     return(
-      <div>
-        <main>
           <section id="playing-game">
             <div class="table"><div><div><div>
               <div class="wrap">
@@ -84,9 +84,6 @@ export default class GamePlaying extends React.Component {
               </div>
             </div></div></div></div>
         </section>
-        </main>
-        <Footer />
-      </div>
     );
   }
 }

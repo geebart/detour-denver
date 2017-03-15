@@ -29,34 +29,29 @@ export default class GameLobby extends React.Component {
     const players = game.players;
 
     return(
-      <div>
-        <main>
-          <section id="create-game">
-            <div class="table"><div><div><div>
-              <div class="wrap">
-                <div class="form-wrap">
-                  <h3>Game Lobby</h3>
-                  <p>Please wait for players to join this game.</p>
-                  <hr />
-                  <h5>Player List</h5>
-                  <ol class="player-list">
-                    {
-                      players.map(function(player, index){
-                        return(
-                          <li key={index}>{player}</li>
-                        )
-                      })
-                    }
-                  </ol>
-                  <a class="button ghost" onClick={() => this.leaveGame(players)} to="/">End Game</a>
-                  <a class="button" onClick={this.startGame}>Start Game</a>
-              </div>
+        <section id="game-lobby">
+          <div class="table"><div><div><div>
+            <div class="wrap">
+              <div class="form-wrap">
+                <h3>Game Lobby</h3>
+                <p>Please wait for players to join this game.</p>
+                <hr />
+                <h5>Player List</h5>
+                <ol class="player-list">
+                  {
+                    players.map(function(player, index){
+                      return(
+                        <li key={index}>{player}</li>
+                      )
+                    })
+                  }
+                </ol>
+                <a class="button ghost" onClick={() => this.leaveGame(players)} to="/">End Game</a>
+                <a class="button" onClick={this.startGame}>Start Game</a>
             </div>
-          </div></div></div></div>
-        </section>
-      </main>
-      <Footer />
-      </div>
-    );
+          </div>
+        </div></div></div></div>
+      </section>
+  );
   }
 }

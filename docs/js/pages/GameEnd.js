@@ -9,8 +9,6 @@ import Footer from "../components/layout/Footer.js";
 export default class GameEnd extends React.Component {
   render(){
     return(
-      <div>
-        <main>
           <section id="end-game">
             <div class="table"><div><div><div>
               <div class="wrap">
@@ -26,9 +24,6 @@ export default class GameEnd extends React.Component {
             </div></div></div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
     );
   }
 }

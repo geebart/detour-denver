@@ -18,7 +18,7 @@ export default class Main extends React.Component {
               <div class="wrap">
                 <div class="vpc center">
                   <div class="form-wrap">
-                    <h1>Detour: Denver</h1>
+                    <img class="logo" src="../images/logo-denver-detour.png" alt="Detour Denver Logo" />
                     <h2>A Browser Game of Deduction and Sites</h2>
                     <p>
                       <Link to="join-game" class="button ghost" title="Join a Game (Game Key Needed)">Join a Game</Link>
