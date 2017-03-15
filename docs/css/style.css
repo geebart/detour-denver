@@ -25,10 +25,6 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 }
 
-/* TESTING */
-section, .parallax-mirror{display: none !important; opacity: 0 !important;}
-.den section, .chi section, .den .parallax-mirror, .chi .parallax-mirror{display: block !important; opacity: 1 !important;}
-/* END TESTING */
 /* GEEB'S MEGA RESET */
 *{
 float: left;
@@ -79,8 +75,6 @@ text-size-adjust: 100%;
 height: auto;
 overflow-x: hidden;
 max-width: 100%;
-/*background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);*/
-/*background-repeat: repeat;*/
 background-color: rgba(0,0,0,.2);
 }
 main{
