@@ -20,7 +20,7 @@ export default class CreateGame extends React.Component {
       "name": "Red Rocks Amphitheater",
       "roles":[
         "Security",
-        "Boygaurd",
+        "Boyguard",
         "Deadhead",
         "Vocalist",
         "Guitarist",
@@ -36,7 +36,7 @@ export default class CreateGame extends React.Component {
       "roles":[
         "Park Ranger",
         "Excited Camper",
-        "Slow Old Woman",
+        "Elderly Woman",
         "Sleepy Child",
         "Photog",
         "Hippie",
@@ -60,7 +60,23 @@ export default class CreateGame extends React.Component {
         "Announcer",
         "Camera Man"
       ]
-    }];
+    },
+    {
+          "name": "Great Divide Brewing Company",
+          "roles":[
+            "Town Drunk",
+            "Bartender",
+            "Owner",
+            "Head Brewer",
+            "Sales Rep",
+            "Rabble Rouser",
+            "Beer Snob",
+            "Hipster",
+            "Barback",
+            "Waitress"
+          ]
+        }
+    ];
 
     this.inputPlayerChange = this.inputPlayerChange.bind(this);
     this.inputKeyChange = this.inputKeyChange.bind(this);
